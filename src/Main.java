@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("\nЗадача 1");
+        System.out.println("\nЗадание 1");
         int x = 1;
         byte y = 2;
         short z = 3;
@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Значение переменной m с типом long равно " + m);
         System.out.println("Значение переменной n с типом float равно " + n);
         System.out.println("Значение переменной t с типом double равно " + t);
-        System.out.println("\nЗадача 2");
+        System.out.println("\nЗадание 2");
         float f = 27.12f;
         long l = 987678965549L;
         float f1 = 2.786f;
@@ -28,7 +28,7 @@ public class Main {
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(b);
-        System.out.println("\nЗадача 3");
+        System.out.println("\nЗадание 3");
         byte lP = 23;
         byte aS = 27;
         byte eA = 30;
@@ -37,7 +37,7 @@ public class Main {
         // что предположил что каждому ученику достанется по целому листу бумаги(в том случае если бы
         // количество листов не делилось бы нацело на количество учеников), значит ответ должен быть целым числом
         System.out.println("На каждого ученика рассчитано " + paperForEveryone + " листов бумаги");
-        System.out.println("\nЗадача 4");
+        System.out.println("\nЗадание 4");
         byte v = 16 / 2;
         byte t1 = 20;
         short t2 = 24 * 60;
@@ -51,7 +51,7 @@ public class Main {
         System.out.println("За сутки машина произвела " + k2 + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + k3 + " штук бутылок");
         System.out.println("За месяц машина произвела " + k4 + " штук бутылок");
-        System.out.println("\nЗадача 5");
+        System.out.println("\nЗадание 5");
         byte classes = 120 / 6;
         byte whiteColor = (byte) (classes * 2);
         byte brownColor = (byte) (classes * 4);
@@ -86,5 +86,5 @@ public class Main {
         System.out.println("Маша теперь получает " + masha1 + " рублей. Годовой доход вырос на " + salaryDifM + " рублей");
         System.out.println("Денис теперь получает " + denis1 + " рублей. Годовой доход вырос на " + salaryDifD + " рублей");
         System.out.println("Кристина теперь получает " + kristina1 + " рублей. Годовой доход вырос на " + salaryDifK + " рублей");
-        }
     }
+}
